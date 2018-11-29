@@ -1,0 +1,33 @@
+public class Car {
+    private String carBrand, color, carNumber;
+
+    public Car(String carBrand, String color, String carNumber) {
+        this.carBrand = carBrand;
+        this.color = color;
+        this.carNumber = carNumber;
+    }
+
+    public String getCarBrand() {
+        return carBrand;
+    }
+
+    public void setCarBrand(String carBrand) {
+        this.carBrand = carBrand;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public String getCarNumber() {
+        return carNumber;
+    }
+
+    public void setCarNumber(String carNumber) {
+        this.carNumber = carNumber;
+    }
+}

@@ -1,0 +1,53 @@
+public class Request {
+    private String whoRequest, whatRequest;
+    private int startDate, endDate;
+    private boolean confirmed;
+
+    public Request(String whoRequest, String whatRequest, int startDate, int endDate, boolean confirmed) {
+        this.whoRequest = whoRequest;
+        this.whatRequest = whatRequest;
+        this.startDate = startDate;
+        this.endDate = endDate;
+        this.confirmed = confirmed;
+    }
+
+    public String getWhoRequest() {
+        return whoRequest;
+    }
+
+    public void setWhoRequest(String whoRequest) {
+        this.whoRequest = whoRequest;
+    }
+
+    public String getWhatRequest() {
+        return whatRequest;
+    }
+
+    public void setWhatRequest(String whatRequest) {
+        this.whatRequest = whatRequest;
+    }
+
+    public int getStartDate() {
+        return startDate;
+    }
+
+    public void setStartDate(int startDate) {
+        this.startDate = startDate;
+    }
+
+    public int getEndDate() {
+        return endDate;
+    }
+
+    public void setEndDate(int endDate) {
+        this.endDate = endDate;
+    }
+
+    public boolean isConfirmed() {
+        return confirmed;
+    }
+
+    public void setConfirmed(boolean confirmed) {
+        this.confirmed = confirmed;
+    }
+}
