@@ -1,5 +1,20 @@
 public class Car {
-    private String carBrand, color, carNumber;
+    private String carBrand, color, LicensePlate;
+
+    public void validateLicensePlate(String LicensePlate){
+        if (LicensePlate.length() <> 6) {
+            throw new IllegalArgumentException("The License Plate must be 6 characters!");
+        }
+    }
+
+    public boolean colorContainsNumber(String color) {
+        return Pattern.compile("[0-9]").matcher(color).find();
+    }
+
+    public void validateColor(String color){
+        if (colorContainsNumber(color) = true)
+            throw new IllegalArgumentException("The color should not contain numbers!")
+    }
 
     public Car(String carBrand, String color, String carNumber) {
         this.carBrand = carBrand;
@@ -20,14 +35,16 @@ public class Car {
     }
 
     public void setColor(String color) {
+        validateColor(color);
         this.color = color;
     }
 
-    public String getCarNumber() {
-        return carNumber;
+    public String getLicensePlate() {
+        return LicensePlate;
     }
 
-    public void setCarNumber(String carNumber) {
-        this.carNumber = carNumber;
+    public void setLicensePlate(String LicensePlate) {
+        validateLicensePlate(LicensePlate);
+        this.LicensePlate = LicensePlate;
     }
 }

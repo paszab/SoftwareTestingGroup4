@@ -1,9 +1,9 @@
 public class Request {
     private String whoRequest, whatRequest;
-    private int startDate, endDate;
+    private Date startDate, endDate;
     private boolean confirmed;
 
-    public Request(String whoRequest, String whatRequest, int startDate, int endDate, boolean confirmed) {
+    public Request(String whoRequest, String whatRequest, Date startDate, Date endDate, boolean confirmed) {
         this.whoRequest = whoRequest;
         this.whatRequest = whatRequest;
         this.startDate = startDate;
@@ -31,7 +31,7 @@ public class Request {
         return startDate;
     }
 
-    public void setStartDate(int startDate) {
+    public void setStartDate(Date startDate) {
         this.startDate = startDate;
     }
 
@@ -39,7 +39,7 @@ public class Request {
         return endDate;
     }
 
-    public void setEndDate(int endDate) {
+    public void setEndDate(Date endDate) {
         this.endDate = endDate;
     }
 

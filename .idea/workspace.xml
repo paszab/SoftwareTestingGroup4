@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a596805b-8340-404b-a309-e2bfa0d65286" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/hu/uni/miskolc/iit/swtest/car/core/model/Car" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/hu/uni/miskolc/iit/swtest/car/core/model/Manager" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/hu/uni/miskolc/iit/swtest/car/core/model/Request" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/hu/uni/miskolc/iit/swtest/car/core/model/Borrower" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/hu/uni/miskolc/iit/swtest/car/core/model/Borrower" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/hu/uni/miskolc/iit/swtest/car/core/model/Car" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/hu/uni/miskolc/iit/swtest/car/core/model/Car" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/hu/uni/miskolc/iit/swtest/car/core/model/Manager" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/hu/uni/miskolc/iit/swtest/car/core/model/Manager" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/hu/uni/miskolc/iit/swtest/car/core/model/Request" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/hu/uni/miskolc/iit/swtest/car/core/model/Request" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,43 +31,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/main/java/hu/uni/miskolc/iit/swtest/car/core/model/Borrower">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+            <state relative-caret-position="408">
+              <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
               <folding>
                 <element signature="e#99#100#0" expanded="true" />
                 <element signature="e#126#127#0" expanded="true" />
-                <element signature="e#166#167#0" expanded="true" />
-                <element signature="e#198#199#0" expanded="true" />
                 <element signature="e#230#231#0" expanded="true" />
                 <element signature="e#258#259#0" expanded="true" />
-                <element signature="e#334#335#0" expanded="true" />
                 <element signature="e#372#373#0" expanded="true" />
                 <element signature="e#406#407#0" expanded="true" />
-                <element signature="e#460#461#0" expanded="true" />
-                <element signature="e#506#507#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/main/java/hu/uni/miskolc/iit/swtest/car/core/model/Manager">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+            <state relative-caret-position="102">
+              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
               <folding>
                 <element signature="e#304#305#0" expanded="true" />
                 <element signature="e#331#332#0" expanded="true" />
-                <element signature="e#371#372#0" expanded="true" />
-                <element signature="e#403#404#0" expanded="true" />
                 <element signature="e#435#436#0" expanded="true" />
                 <element signature="e#463#464#0" expanded="true" />
-                <element signature="e#505#506#0" expanded="true" />
-                <element signature="e#539#540#0" expanded="true" />
                 <element signature="e#577#578#0" expanded="true" />
                 <element signature="e#611#612#0" expanded="true" />
-                <element signature="e#665#666#0" expanded="true" />
-                <element signature="e#711#712#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,31 +65,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/main/java/hu/uni/miskolc/iit/swtest/car/core/model/Car">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="22" column="27" selection-end-line="32" selection-end-column="1" />
+            <state relative-caret-position="255">
+              <caret line="15" column="84" selection-start-line="15" selection-start-column="84" selection-end-line="15" selection-end-column="84" />
               <folding>
-                <element signature="e#270#271#0" expanded="true" />
-                <element signature="e#301#302#0" expanded="true" />
-                <element signature="e#349#350#0" expanded="true" />
-                <element signature="e#389#390#0" expanded="true" />
-                <element signature="e#421#422#0" expanded="true" />
-                <element signature="e#449#450#0" expanded="true" />
-                <element signature="e#491#492#0" expanded="true" />
-                <element signature="e#525#526#0" expanded="true" />
-                <element signature="e#561#562#0" expanded="true" />
-                <element signature="e#593#594#0" expanded="true" />
-                <element signature="e#643#644#0" expanded="true" />
-                <element signature="e#685#686#0" expanded="true" />
+                <element signature="e#318#319#0" expanded="true" />
+                <element signature="e#387#388#0" expanded="true" />
+                <element signature="e#825#826#0" expanded="true" />
+                <element signature="e#913#914#0" expanded="true" />
+                <element signature="e#973#974#0" expanded="true" />
+                <element signature="e#777#778#0" expanded="true" />
+                <element signature="e#812#813#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/src/test/java/hu/uni/miskolc/iit/swtest/car/core/model/AppTest.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/main/java/hu/uni/miskolc/iit/swtest/car/core/model/Request">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+              <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
               <folding>
                 <element signature="e#465#466#0" expanded="true" />
                 <element signature="e#498#499#0" expanded="true" />
@@ -173,11 +163,11 @@
       <list>
         <option value="$PROJECT_DIR$/core/src/main/java/hu/uni/miskolc/iit/swtest/car/core/model/Car.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/hu/uni/miskolc/iit/swtest/car/core/model/App.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/hu/uni/miskolc/iit/swtest/car/core/model/Borrower" />
         <option value="$PROJECT_DIR$/core/src/main/java/hu/uni/miskolc/iit/swtest/car/core/model/Manage" />
-        <option value="$PROJECT_DIR$/core/src/main/java/hu/uni/miskolc/iit/swtest/car/core/model/Car" />
-        <option value="$PROJECT_DIR$/core/src/main/java/hu/uni/miskolc/iit/swtest/car/core/model/Request" />
         <option value="$PROJECT_DIR$/core/src/main/java/hu/uni/miskolc/iit/swtest/car/core/model/Manager" />
+        <option value="$PROJECT_DIR$/core/src/main/java/hu/uni/miskolc/iit/swtest/car/core/model/Borrower" />
+        <option value="$PROJECT_DIR$/core/src/main/java/hu/uni/miskolc/iit/swtest/car/core/model/Request" />
+        <option value="$PROJECT_DIR$/core/src/main/java/hu/uni/miskolc/iit/swtest/car/core/model/Car" />
       </list>
     </option>
   </component>
@@ -342,6 +332,121 @@
               <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="software" type="b2602c69:ProjectViewProjectNode" />
+              <item name="software" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="software" type="b2602c69:ProjectViewProjectNode" />
+              <item name="software" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="software" type="b2602c69:ProjectViewProjectNode" />
+              <item name="software" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="software" type="b2602c69:ProjectViewProjectNode" />
+              <item name="software" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hu" type="462c0819:PsiDirectoryNode" />
+              <item name="uni" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="software" type="b2602c69:ProjectViewProjectNode" />
+              <item name="software" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hu" type="462c0819:PsiDirectoryNode" />
+              <item name="uni" type="462c0819:PsiDirectoryNode" />
+              <item name="miskolc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="software" type="b2602c69:ProjectViewProjectNode" />
+              <item name="software" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hu" type="462c0819:PsiDirectoryNode" />
+              <item name="uni" type="462c0819:PsiDirectoryNode" />
+              <item name="miskolc" type="462c0819:PsiDirectoryNode" />
+              <item name="iit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="software" type="b2602c69:ProjectViewProjectNode" />
+              <item name="software" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hu" type="462c0819:PsiDirectoryNode" />
+              <item name="uni" type="462c0819:PsiDirectoryNode" />
+              <item name="miskolc" type="462c0819:PsiDirectoryNode" />
+              <item name="iit" type="462c0819:PsiDirectoryNode" />
+              <item name="swtest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="software" type="b2602c69:ProjectViewProjectNode" />
+              <item name="software" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hu" type="462c0819:PsiDirectoryNode" />
+              <item name="uni" type="462c0819:PsiDirectoryNode" />
+              <item name="miskolc" type="462c0819:PsiDirectoryNode" />
+              <item name="iit" type="462c0819:PsiDirectoryNode" />
+              <item name="swtest" type="462c0819:PsiDirectoryNode" />
+              <item name="car" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="software" type="b2602c69:ProjectViewProjectNode" />
+              <item name="software" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hu" type="462c0819:PsiDirectoryNode" />
+              <item name="uni" type="462c0819:PsiDirectoryNode" />
+              <item name="miskolc" type="462c0819:PsiDirectoryNode" />
+              <item name="iit" type="462c0819:PsiDirectoryNode" />
+              <item name="swtest" type="462c0819:PsiDirectoryNode" />
+              <item name="car" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="software" type="b2602c69:ProjectViewProjectNode" />
+              <item name="software" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hu" type="462c0819:PsiDirectoryNode" />
+              <item name="uni" type="462c0819:PsiDirectoryNode" />
+              <item name="miskolc" type="462c0819:PsiDirectoryNode" />
+              <item name="iit" type="462c0819:PsiDirectoryNode" />
+              <item name="swtest" type="462c0819:PsiDirectoryNode" />
+              <item name="car" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -351,7 +456,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543491202407" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543501823644" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
@@ -385,12 +490,12 @@
       <workItem from="1542754437391" duration="1489000" />
       <workItem from="1542823903801" duration="454000" />
       <workItem from="1542825099149" duration="3285000" />
-      <workItem from="1543449393920" duration="7226000" />
+      <workItem from="1543449393920" duration="14910000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12454000" />
+    <option name="totallyTimeSpent" value="20138000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -403,9 +508,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49919224" visible="true" weight="0.25945538" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49919224" visible="true" weight="0.25945538" />
       <window_info id="Structure" order="1" sideWeight="0.50080776" side_tool="true" weight="0.2553305" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -421,13 +525,13 @@
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49848714" weight="0.3289689" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49848714" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5015129" side_tool="true" visible="true" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="9" sideWeight="0.5015129" side_tool="true" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
@@ -469,23 +573,32 @@
     <entry file="file://$PROJECT_DIR$/core/src/main/java/hu/uni/miskolc/iit/swtest/car/core/model/Car">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/hu/uni/miskolc/iit/swtest/car/core/model/Car">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/hu/uni/miskolc/iit/swtest/car/core/model/Borrower">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="22" column="27" selection-end-line="32" selection-end-column="1" />
+        <state relative-caret-position="408">
+          <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
           <folding>
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#491#492#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#561#562#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
-            <element signature="e#643#644#0" expanded="true" />
-            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#99#100#0" expanded="true" />
+            <element signature="e#126#127#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/hu/uni/miskolc/iit/swtest/car/core/model/Manager">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -493,7 +606,7 @@
     <entry file="file://$PROJECT_DIR$/core/src/main/java/hu/uni/miskolc/iit/swtest/car/core/model/Request">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
           <folding>
             <element signature="e#465#466#0" expanded="true" />
             <element signature="e#498#499#0" expanded="true" />
@@ -519,46 +632,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/hu/uni/miskolc/iit/swtest/car/core/model/Borrower">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/hu/uni/miskolc/iit/swtest/car/core/model/Car">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        <state relative-caret-position="255">
+          <caret line="15" column="84" selection-start-line="15" selection-start-column="84" selection-end-line="15" selection-end-column="84" />
           <folding>
-            <element signature="e#99#100#0" expanded="true" />
-            <element signature="e#126#127#0" expanded="true" />
-            <element signature="e#166#167#0" expanded="true" />
-            <element signature="e#198#199#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#825#826#0" expanded="true" />
+            <element signature="e#913#914#0" expanded="true" />
+            <element signature="e#973#974#0" expanded="true" />
+            <element signature="e#777#778#0" expanded="true" />
+            <element signature="e#812#813#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/hu/uni/miskolc/iit/swtest/car/core/model/Manager">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-          <folding>
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#665#666#0" expanded="true" />
-            <element signature="e#711#712#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/core/src/test/java/hu/uni/miskolc/iit/swtest/car/core/model/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

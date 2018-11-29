@@ -2,11 +2,28 @@ public class Borrower {
 
     private String name, email, phoneNumber;
 
+    public void validateName(String name){
+        if (name.indexOf(" ") >= 0)
+            throw new IllegalArgumentException("Enter your full name!");
+    }
+
+    public void validateEmail(String email){
+        if (email.indexOf("@") >= 0)
+            throw new IllegalArgumentException("The e-mail address must contain the @ sign!");
+    }
+
+    public void validatePhoneNumber(String phoneNumber){
+        if (phoneNumber.length() <> 11) {
+            throw new IllegalArgumentException("The Phone Number must be 11 characters!");
+        }
+    }
+
     public String getName() {
         return name;
     }
 
     public void setName(String name) {
+        validateName(name);
         this.name = name;
     }
 
@@ -15,6 +32,7 @@ public class Borrower {
     }
 
     public void setEmail(String email) {
+        validateEmail(validateEmail);
         this.email = email;
     }
 
@@ -23,6 +41,7 @@ public class Borrower {
     }
 
     public void setPhoneNumber(String phoneNumber) {
+        validatePhoneNumber(phoneNumber);
         this.phoneNumber = phoneNumber;
     }
 

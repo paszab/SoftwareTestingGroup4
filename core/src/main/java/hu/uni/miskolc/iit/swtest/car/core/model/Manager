@@ -1,12 +1,28 @@
 public class Manager {
     private String name;
     private String email;
-    private String numberPhone;
+    private String phoneNumber;
 
-    public Manager(String name, String email, String numberPhone) {
+    public Manager(String name, String email, String phoneNumber) {
         this.name = name;
         this.email = email;
-        this.numberPhone = numberPhone;
+        this.phoneNumber = phoneNumber;
+    }
+
+    public void validateName(String name){
+        if (name.indexOf(" ") >= 0)
+            throw new IllegalArgumentException("Enter your full name!");
+    }
+
+    public void validateEmail(String email){
+        if (email.indexOf("@") >= 0)
+            throw new IllegalArgumentException("The e-mail address must contain the @ sign!");
+    }
+
+    public void validatePhoneNumber(String phoneNumber){
+        if (phoneNumber.length() <> 11) {
+            throw new IllegalArgumentException("The Phone Number must be 11 characters!");
+        }
     }
 
     public String getName() {
@@ -14,6 +30,7 @@ public class Manager {
     }
 
     public void setName(String name) {
+        validateName(name);
         this.name = name;
     }
 
@@ -22,15 +39,17 @@ public class Manager {
     }
 
     public void setEmail(String email) {
+        validateEmail(email);
         this.email = email;
     }
 
-    public String getNumberPhone() {
+    public String getPhoneNumber() {
         return numberPhone;
     }
 
-    public void setNumberPhone(String numberPhone) {
-        this.numberPhone = numberPhone;
+    public void setPhoneNumber(String phoneNumber) {
+        validatePhoneNumber(phoneNumber);
+        this.phoneNumber = phoneNumber;
     }
 
 }
