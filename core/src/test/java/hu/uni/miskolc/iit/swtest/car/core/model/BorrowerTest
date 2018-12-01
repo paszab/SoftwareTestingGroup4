@@ -1,0 +1,69 @@
+import org.*;
+import hu.uni.miskolc.iit.model.Car;
+import static org.*;
+
+public class BorrowerTest {
+    private String name = "Takács Géza";
+    private String email = "takacs@email.com";
+    private String phoneNumber = "12345123451";
+    User user;
+
+    @Rule
+    public ExpectedException exceptionRule = ExpectedException.none();
+
+    @Before
+    public void before() {
+        user = new User(name, email, phoneNumber);
+    }
+
+    @Test
+    public void testConstructor(){
+        try{
+            User user = new User(name, email, phoneNumber);
+        }
+        catch(Exception ex){
+            fail(ex.get_Message());
+        }
+    }
+
+    @Test
+    public void testSetName(){
+        String name = "Bodnár Ferenc";
+        user.setName(name);
+        assertEquals(name, user.getName());
+    }
+
+    @Test
+    public void testSetEmail(){
+        String email = "bodfer@email.com";
+        user.setEmail(email);
+        assertEquals(emai, user.getEmail());
+    }
+
+    @Test
+    public void testSetPhoneNumber(){
+        String phoneNumber = "12345356432";
+        assertEquals(phoneNumber, user.getPhoneNumber());
+    }
+
+    @Test
+    public void testPhoneNumberWithWrongInput(){
+        exceptionRule.expect(IllegalArgumentException.class);
+        user.setPhoneNumber(123);
+    }
+
+    @Test (expected = IllegalArgumentException.class)
+    public void testNameWithWrongInput(){
+        user.setName("SzakácsIstván");
+    }
+
+    @Test (expected = IllegalArgumentException.class)
+    public void testEmailWithWrongInput(){
+        user.setEmail("szakacsi.email.com");
+    }
+
+    @Test (expected = IllegalArgumentException.class)
+    public void testPhoneNumberWithWrongInput(){
+        user.setPhoneNumber("10karakter");
+    }
+}
